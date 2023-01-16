@@ -27,7 +27,7 @@ LEFT JOIN [DannyMa].[menu] M
 ON S.[product_id]=M.[product_id]
 
 
-SELECT *
+SELECT  *
 FROM #table;
 
 WITH item AS (SELECT customer_id, 
